@@ -1,9 +1,9 @@
 ﻿#*************************************************************** Constant variables *****************************************************************************
 $burntToastUNCPath = "Accessible UNC path for burntoast"            # UNC path to the BurntToast module on the NAS                                        
 $burnToastLocalPath = "$env:LOCALAPPDATA\BurntToast"                # Local path for the BurntToast module in %localappdata%
-$NmbrJours = 10                                                     # Number of days before notifying the user
+$NmbrJours = 7                                                     # Number of days before notifying the user
 $HeroLogo = "The herologo path you want to use"                     # Path to the Semat hero image
-$PauseSecondes = 1                                                  # Wait time before sending the notification  
+$PauseSecondes = 240                                                  # Wait time before sending the notification  
 
 
 $ErrorActionPreference = 'SilentlyContinue' # Force execution without prompt and avoid visible errors

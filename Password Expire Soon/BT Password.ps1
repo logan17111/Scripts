@@ -2,8 +2,8 @@
 $burntToastUNCPath = "Accessible UNC path for burntoast"        # UNC path to the BurntToast module on the NAS
 $burnToastLocalPath = "$env:LOCALAPPDATA\BurntToast"            # Local path for the BurntToast module in %localappdata%
 #$LogoImage = "logo path you want to use"                       # Path to the image on the local client / Uncomment this line if you want to use a logo image
-$NbreJoursExpiration = 400                                      # Password expiration duration in days; if the password expires in less than x days, the notification will be displayed.
-$WaitingSec = 1                                                 # Waiting time before sending the notification.
+$NbreJoursExpiration = 14                                      # Password expiration duration in days; if the password expires in less than x days, the notification will be displayed.
+$WaitingSec = 300                                                 # Waiting time before sending the notification.
 $HeroLogo = "The herologo path you want to use"                # Path to the hero image for the notification
 
 
