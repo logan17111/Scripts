@@ -75,7 +75,7 @@ if ($Result) {
                 HintCrop = 'circle'                                                         # Crop the icon as a circle
             }#>
 
-            $Binding61 = New-BTBinding -Children $Text10, $Text20 <#-AppLogoOverride $AppLogo71#> -HeroImage $heroimage # Bind texts and icon to the notification
+            $Binding61 = New-BTBinding -Children $Text10, $Text20 <#-AppLogoOverride $AppLogo71#> -HeroImage $heroimage # Bind texts and icon to the notification / uncomment the "-AppLogoOverride $AppLogo71" line if you want to use a logo image
 
             #***************************************************** Create the visual *******************************************************************************
             $Visual = New-BTVisual -BindingGeneric $Binding61 # Create the visual for the notification with texts and icon
