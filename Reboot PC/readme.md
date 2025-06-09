@@ -1,0 +1,2 @@
+﻿To ensure that the BT shutdown script works, you need to deploy the Group Policy Object (GPO) to the target computers. 
+The GPO applies the necessary settings and scripts during system shutdown, so without deploying it, the script will not execute as intended.
