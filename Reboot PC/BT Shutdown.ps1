@@ -30,7 +30,7 @@ $uptimeDays = $Uptime.Days
 
 
 # Return Exit code 0 if this computer has not been online for too long, ending the script.
-if ($uptimeDays -GT $Days) { # For testing I am using "-GT" greater than to get the notification if it has been on for less than $days days / For production use "-LT" less than
+if ($uptimeDays -LT $Days) { # For testing I am using "-GT" greater than to get the notification if it has been on for less than $days days / For production use "-LT" less than
 Exit 0
 }
 
