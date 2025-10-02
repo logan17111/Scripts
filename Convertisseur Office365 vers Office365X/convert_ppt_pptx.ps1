@@ -2,7 +2,7 @@
 # Copié et modifié de la version XLSX
 # Edité by Logan
 
-$folderpath = "D:\SERVICES\SematProductionSystem\"   # Dossier où le script agit
+$folderpath = "your_path"   # Dossier où le script agit
 $filetype   = "*.ppt"                                           # Extensions de fichiers à cibler
 
 # Chargement PowerPoint Interop, A commenté pour desactivé suivant la version d'excel installé
@@ -86,7 +86,7 @@ $ppt = $null
 [gc]::WaitForPendingFinalizers()
 
 # Définir le chemin du fichier log
-$logFile = "C:\Users\ldumas.dom\Documents\scripts\convert_ppt_log.txt"
+$logFile = "your_path\convert_ppt_log.txt"
 
 # Résumé visuel dans la fenetre PS
 Write-Host "`n=== Résumé conversion ==="
