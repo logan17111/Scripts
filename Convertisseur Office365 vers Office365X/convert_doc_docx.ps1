@@ -2,7 +2,7 @@
 # Inspiré de la version XLSX
 # Édité by Logan
 
-$folderpath = "D:\SERVICES\SematProductionSystem\"
+$folderpath = "your_path"
 $filetype   = "*.doc"
 
 # Chargement Word Interop, A commenté pour desactivé suivant la version d'excel installé
@@ -88,7 +88,7 @@ $word = $null
 [gc]::WaitForPendingFinalizers()
 
 # Définir le chemin du fichier log
-$logFile = "C:\Users\ldumas.dom\Documents\scripts\convert_doc_log.txt"
+$logFile = "your_path\convert_doc_log.txt"
 
 # Résumé visuel dans la fenetre PS
 Write-Host "`n=== Résumé conversion ==="
